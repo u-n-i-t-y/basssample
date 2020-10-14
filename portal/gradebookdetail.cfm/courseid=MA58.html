@@ -1,0 +1,3038 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    <title>Realtime Student Portal</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="description" content="Default Description" />
+<meta name="keywords" content="E-commerce" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="format-detection" content="telephone=no" />
+
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link href='//fonts.googleapis.com/css?family=Roboto:400,300,700,500,900&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+var BLANK_URL = 'blank.html';
+var BLANK_IMG = 'images/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+    <!--[if lt IE 9]>
+<div style=' clear: both; text-align:center; position: relative;'>
+<a href="//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="images/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+</div>
+<style>
+body {  min-width: 960px !important;}
+</style>
+<![endif]-->
+
+
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/material-design.css?v=20160830.0" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/fontawesome-all.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/realtime-fontawesome.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/jquery.bxslider.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/photoswipe.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/bootstrap.css?v=20160830.0" media="all" />
+
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/extra_style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/responsive.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/superfish.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/camera.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/animate.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/ripples.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/cloud-zoom.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/catalogsale.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/tm_googlemap.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/instagram.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/style_productlistgallery.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/ajaxlogin.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/js/fullcalendar/fullcalendar.css" media="all" />
+
+
+
+        <!-- override otherwise, match the bgcolor because the header bg is white -->
+        
+        <!-- This style is set up for locationID 990  at {ts '2020-10-14 15:15:28'} -->
+    
+    <style>
+        .sf-menu li a {
+            color: #000000;
+        }
+        .line-height-reset{
+            line-height: normal;
+        }
+        /*Menu Styling */
+        .sf-menu > li:first-child > a > span, .sf-menu > li > a > span {
+            padding: 5px;
+        }
+
+        /*Modal background color override*/
+        #primary-modal  .modal-content{
+            background-color: #00559E;
+            color: #FFFFFF;
+        }
+        #primary-modal .primary-modal-title {
+            color: #FFFFFF;
+        }
+
+        #primary-modal .close{
+            color: #FFFFFF;
+        }
+
+        /*Student Header */
+        .student-header {
+          margin-bottom: -50px;
+          display: block;
+          padding: 7px;
+          background-color: #ffffff !important;
+          color: #000000 !important;
+          position: relative;
+          height: 80px;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+
+        .student-header h1 {
+            /*color: #99a4ab !important;*/
+        }
+
+        .student-header h6 {
+            /*color: #99a4ab !important;*/
+            font-weight: normal;
+        }
+        .student-picture-placeholder-wrapper {
+            max-height: 68px;
+        }
+
+        .student-picture-placeholder-wrapper img {
+            display: block;
+            margin: auto;
+            clear:both;
+            vertical-align: middle;
+            max-width: 100%;
+            max-height: 68px;
+            height: auto;
+            width: auto\9; /* ie8 */
+            border: 3px solid #FF9900;
+        }
+
+        .student-header span.small-header-text{
+            font-size: 75%
+        }
+
+        /*Theming from stored data*/
+        .custom-background-color {
+            background-color: #208A18;
+            color: #ffffff;
+        }
+        .custom-menu-header-color {
+            background-color: #00559E !important;
+            color: #FFFFFF !important;
+        }
+
+        .custom-menu-item-color {
+            color: #99a4ab !important;
+            /*color: #000000;*/
+        }
+
+        .custom-menu-header-color h1 {
+            color: #FFFFFF !important;
+        }
+        .custom-menu-header-color small {
+            
+                color: #FF9900;
+            
+        }
+        .pull-up-20 {
+            margin-top: -20px;
+        }
+        .margin-bottom-10 {
+            margin-bottom: 10px;
+        }
+        .margin-bottom-0 {
+            margin-bottom: 0px;
+        }
+        .padding-top-10{
+            padding-top: 10px;
+        }
+        .padding-top-5{
+            padding-top: 5px;
+        }
+        .padding-bottom-10{
+            padding-top: 10px;
+        }
+        .padding-bottom-5{
+            padding-top: 5px;
+        }
+        .no-margin {
+            margin: 0px;
+        }
+        .no-padding {
+            padding: 0px;
+        }
+        /* This is light gray sub-header to be used in tables  */
+        .table-row-subheader {
+            background-color: #f2f2f2;
+        }
+        .custom-header-logo-color {
+            color: #FFFFFF !important;
+        }
+
+        .custom-header-logo-color h4 {
+            color: #ffffff !important;
+        }
+
+        .realtime-header-info {
+            text-align: right;
+            float: right;
+        }
+
+        .custom-footer-color a {
+            color: #ffffff !important;
+        }
+
+        .custom-footer-color h4 {
+            color: #99a4ab !important;
+        }
+        .header-info span.header-custom-address {
+            font-size: 1vw;
+            text-align: right;
+        }
+        .custom-district-logo {
+            font-size: 2.5vw; /*36px*/
+            line-height: 1.2;
+        }
+        .header-info{
+        	float: left;
+        	margin: 8px 0 0 200px;
+        }
+        /*Menu Icon color */
+        .header .links li a:hover.account-link-item:before {
+            color: #111111;
+        }
+        /*Set the menu icon in the top right corner to the highlight color*/
+        .header-dropdown-icon i:before {
+            color: #FFFFFF !important;
+
+            /*color: #ffffff;*/
+            /*
+                color: #FF9900;
+            */
+        }
+        /* Correct the mobile version for the header spacing with font size changes. - but may need to be done better - not 100% right in the main view*/
+        .header-container {
+            margin-bottom: 15px;
+        }
+
+        .main-container {
+            color: #00559E !important;
+        }
+
+        .thead-inverse th {
+          color: #FFFFFF;
+          background-color: #00559E;
+        }
+
+        .tr-inverse td {
+          color: #FFFFFF;
+          background-color: #00559E;
+        }
+
+        /*primary-color button - set primary color - include the btn-default - */
+        .btn-rt {
+            border-color: #00559E !important;
+            background-color: #00559E !important;
+            color: #FFFFFF;
+        }
+
+        .btn-rt:hover {
+            color: #FF9900 !important;
+        }
+
+        /*food services mobile view*/
+        .btn-fsmobile {
+            background-color: Transparent !important;
+            border-bottom:solid thin grey;
+            width:275px !important;
+            margin:0 auto;
+        }
+
+        /*myAccount panel*/
+        .panel-rt {
+        border-color: #00559E !important;
+        }
+
+        .panel-rt2 {
+        border-color: #00559E !important;
+        background-color: #00559E !important;
+        color: #FFFFFF;
+        }
+
+        .googlePlayBadge {
+            height: 60px;
+        }
+        .appleAppStoreBadge {
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .app-instructions > ol > li {
+            margin-left: 15px !important;
+            list-style: decimal !important;
+        }
+        .district-code-instruction {
+            padding-top: 10px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+        }
+        .note-instruction {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            font-style: italic;
+        }
+
+        /*foodServices buttons*/
+        .btn-fs{
+            border-right: 1px solid black !important;
+        }
+        .btn-fs2{
+            border-right: 2px solid black !important;
+        }
+
+        /* This cleans up the styling for signupDocuments - row spacing to define teh buttons*/
+        .documents .row {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+
+        /* expander buttons - toggle-able detail i chevrons */
+        button[aria-expanded=true] .fa-chevron-right {
+           display: none;
+        }
+        button[aria-expanded=false] .fa-chevron-down {
+           display: none;
+        }
+
+        /*Legacy header text */
+        .hdrTxt {
+            color: #99a4ab !important;
+            font-size: 20px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .label-block {
+            display: block;
+        }
+
+        /* STACKTABLE.js - show/hide the cardtable view for mobile  */
+        /* stack-table - define the table rows better */
+        .small-only.table tr:first-child {
+            border-top: 2px solid black;
+        }
+        .table-responsive  .stacktable.large-only { display: table; }
+        .table-responsive  .stacktable.small-only { display: none; }
+
+        @media (max-width: 800px) {
+          .table-responsive  .stacktable.large-only { display: none; }
+          .table-responsive  .stacktable.small-only { display: table; }
+        }
+
+        .list-group-item-rt{
+            background-color: #00559E;
+            color: #FFFFFF;
+        }
+
+        .copyright-color{
+            color: #FFFFFF !important;
+        }
+
+        .header .links li a.my-students-link:before{
+        	font-family: "material-design";
+        	padding-right: 15px;
+        	vertical-align: bottom;
+        	font-size: 25px;
+        	color: #dadee1;
+        	-webkit-transition: 0.3s;
+        	-o-transition: 0.3s;
+        	transition: 0.3s;
+        }
+        .header .links li a.my-students-link:before{
+                content: "\e05f";
+        }
+
+        a.yearoveride{
+        	color: #FFFFFF !important;
+        }
+
+        /*Calendar color modifications */
+        .fc-day, .fc-event-container, .fc-event, .fc-day-number {
+            cursor: pointer;
+        }
+        .fc-day-number {
+            font-weight: bold;
+        }
+
+        .fc-sat, .fc-sun {
+            background-color: #D9D7DE !important;
+        }
+        .school-calendar-day-inschool {
+            background-color: white !important;
+        }
+
+        .school-calendar-day-notinschool {
+            background-color: #A9B0AB !important;
+        }
+        .label-school-calendar-day-notinschool {
+            color: black;
+            background-color: #A9B0AB !important;
+        }
+        .label-school-calendar-day-inschool {
+            /*NOTE: the fc-bgevent above this element has opacity set to 0.3 so this turns gray*/
+            color: black !important;
+        }
+        .calendar-popup-header {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .reduce-gutter {
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+        .margin-top-5 {
+            margin-top: 5px;
+        }
+        .margin-top-10 {
+            margin-top: 10px;
+        }
+        .text-red {
+            color: red;
+        }
+        /* grades */
+        .comment-table {
+            width: 100%;
+        }
+        .comment-display-row {
+            /*padding-top: 5px;*/
+        }
+        .comment-display-left-detail {
+            border-left: 25px solid  #00559E;;
+        }
+        /* grades */
+        .comment-table {
+            width: 100%;
+        }
+        .comment-display-row {
+            /*padding-top: 5px;*/
+        }
+        .comment-display-left-detail {
+            border-left: 25px solid  #00559E;;
+        }
+
+        .comment-display-bottom-border {
+            border-bottom: 1px solid #dddddd;
+            /*margin-bottom:5px;*/
+        }
+        .page-title-small {
+          padding: 8px 8px;
+        }
+        .text-bold {
+            font-weight: bold;
+        }
+
+        .d-inline-block {
+            display: inline-block;
+        }
+
+        .mb-3 {
+            margin-bottom: 1.5em;
+        }
+
+        .wrap-line {
+            white-space: normal;
+        }
+        .font-attendance-warning {
+          font-size: 20px;
+          color: red;
+        }
+
+        .w-25 {
+          width: 25% !important;
+        }
+
+        .w-50 {
+          width: 50% !important;
+        }
+
+        .w-75 {
+          width: 75% !important;
+        }
+
+        .w-100 {
+          width: 100% !important;
+        }
+
+        .h-25 {
+          height: 25% !important;
+        }
+
+        .h-50 {
+          height: 50% !important;
+        }
+
+        .h-75 {
+          height: 75% !important;
+        }
+
+        .h-100 {
+          height: 100% !important;
+        }
+
+        .mw-100 {
+          max-width: 100% !important;
+        }
+
+        .mh-100 {
+          max-height: 100% !important;
+        }
+
+        .m-0 {
+          margin: 0 !important;
+        }
+
+        .mt-0,
+        .my-0 {
+          margin-top: 0 !important;
+        }
+
+        .mr-0,
+        .mx-0 {
+          margin-right: 0 !important;
+        }
+
+        .mb-0,
+        .my-0 {
+          margin-bottom: 0 !important;
+        }
+
+        .ml-0,
+        .mx-0 {
+          margin-left: 0 !important;
+        }
+
+        .m-1 {
+          margin: 0.25rem !important;
+        }
+
+        .mt-1,
+        .my-1 {
+          margin-top: 0.25rem !important;
+        }
+
+        .mr-1,
+        .mx-1 {
+          margin-right: 0.25rem !important;
+        }
+
+        .mb-1,
+        .my-1 {
+          margin-bottom: 0.25rem !important;
+        }
+
+        .ml-1,
+        .mx-1 {
+          margin-left: 0.25rem !important;
+        }
+
+        .m-2 {
+          margin: 0.5rem !important;
+        }
+
+        .mt-2,
+        .my-2 {
+          margin-top: 0.5rem !important;
+        }
+
+        .mr-2,
+        .mx-2 {
+          margin-right: 0.5rem !important;
+        }
+
+        .mb-2,
+        .my-2 {
+          margin-bottom: 0.5rem !important;
+        }
+
+        .ml-2,
+        .mx-2 {
+          margin-left: 0.5rem !important;
+        }
+
+        .m-3 {
+          margin: 1rem !important;
+        }
+
+        .mt-3,
+        .my-3 {
+          margin-top: 1rem !important;
+        }
+
+        .mr-3,
+        .mx-3 {
+          margin-right: 1rem !important;
+        }
+
+        .mb-3,
+        .my-3 {
+          margin-bottom: 1rem !important;
+        }
+
+        .ml-3,
+        .mx-3 {
+          margin-left: 1rem !important;
+        }
+
+        .m-4 {
+          margin: 1.5rem !important;
+        }
+
+        .mt-4,
+        .my-4 {
+          margin-top: 1.5rem !important;
+        }
+
+        .mr-4,
+        .mx-4 {
+          margin-right: 1.5rem !important;
+        }
+
+        .mb-4,
+        .my-4 {
+          margin-bottom: 1.5rem !important;
+        }
+
+        .ml-4,
+        .mx-4 {
+          margin-left: 1.5rem !important;
+        }
+
+        .m-5 {
+          margin: 3rem !important;
+        }
+
+        .mt-5,
+        .my-5 {
+          margin-top: 3rem !important;
+        }
+
+        .mr-5,
+        .mx-5 {
+          margin-right: 3rem !important;
+        }
+
+        .mb-5,
+        .my-5 {
+          margin-bottom: 3rem !important;
+        }
+
+        .ml-5,
+        .mx-5 {
+          margin-left: 3rem !important;
+        }
+
+        .p-0 {
+          padding: 0 !important;
+        }
+
+        .pt-0,
+        .py-0 {
+          padding-top: 0 !important;
+        }
+
+        .pr-0,
+        .px-0 {
+          padding-right: 0 !important;
+        }
+
+        .pb-0,
+        .py-0 {
+          padding-bottom: 0 !important;
+        }
+
+        .pl-0,
+        .px-0 {
+          padding-left: 0 !important;
+        }
+
+        .p-1 {
+          padding: 0.25rem !important;
+        }
+
+        .pt-1,
+        .py-1 {
+          padding-top: 0.25rem !important;
+        }
+
+        .pr-1,
+        .px-1 {
+          padding-right: 0.25rem !important;
+        }
+
+        .pb-1,
+        .py-1 {
+          padding-bottom: 0.25rem !important;
+        }
+
+        .pl-1,
+        .px-1 {
+          padding-left: 0.25rem !important;
+        }
+
+        .p-2 {
+          padding: 0.5rem !important;
+        }
+
+        .pt-2,
+        .py-2 {
+          padding-top: 0.5rem !important;
+        }
+
+        .pr-2,
+        .px-2 {
+          padding-right: 0.5rem !important;
+        }
+
+        .pb-2,
+        .py-2 {
+          padding-bottom: 0.5rem !important;
+        }
+
+        .pl-2,
+        .px-2 {
+          padding-left: 0.5rem !important;
+        }
+
+        .p-3 {
+          padding: 1rem !important;
+        }
+
+        .pt-3,
+        .py-3 {
+          padding-top: 1rem !important;
+        }
+
+        .pr-3,
+        .px-3 {
+          padding-right: 1rem !important;
+        }
+
+        .pb-3,
+        .py-3 {
+          padding-bottom: 1rem !important;
+        }
+
+        .pl-3,
+        .px-3 {
+          padding-left: 1rem !important;
+        }
+
+        .p-4 {
+          padding: 1.5rem !important;
+        }
+
+        .pt-4,
+        .py-4 {
+          padding-top: 1.5rem !important;
+        }
+
+        .pr-4,
+        .px-4 {
+          padding-right: 1.5rem !important;
+        }
+
+        .pb-4,
+        .py-4 {
+          padding-bottom: 1.5rem !important;
+        }
+
+        .pl-4,
+        .px-4 {
+          padding-left: 1.5rem !important;
+        }
+
+        .p-5 {
+          padding: 3rem !important;
+        }
+
+        .pt-5,
+        .py-5 {
+          padding-top: 3rem !important;
+        }
+
+        .pr-5,
+        .px-5 {
+          padding-right: 3rem !important;
+        }
+
+        .pb-5,
+        .py-5 {
+          padding-bottom: 3rem !important;
+        }
+
+        .pl-5,
+        .px-5 {
+          padding-left: 3rem !important;
+        }
+
+        .m-auto {
+          margin: auto !important;
+        }
+
+        .mt-auto,
+        .my-auto {
+          margin-top: auto !important;
+        }
+
+        .mr-auto,
+        .mx-auto {
+          margin-right: auto !important;
+        }
+
+        .mb-auto,
+        .my-auto {
+          margin-bottom: auto !important;
+        }
+
+        .ml-auto,
+        .mx-auto {
+          margin-left: auto !important;
+        }
+        .allow-horiz-scroll {
+          overflow-x: auto !important;
+        }
+    </style>
+
+
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/datepicker.css" media="all" />
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://fridaystudentportal.com/portal/template/css/styles-ie.css" media="all" />
+<![endif]-->
+    <!--[if lt IE 7]>
+<script type="text/javascript" src="js/ds-sleight.js"></script>
+<script type="text/javascript" src="js/ie6.js"></script>
+<![endif]-->
+
+<div id="fb-root">
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="primary-modal" aria-hidden="true" id="primary-modal">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header block-title">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true"><i class="material-design-close47"></i></span>
+          <span class="sr-only">Close</span>
+        </button>
+        <span class="modal-title"></span>
+      </div>
+      <div class="modal-body">
+        <span class="modal-body-text"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </head>
+
+    <body class="ps-static  cms-index-index cms-home custom-background-color">
+        
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery_noconflict.js"></script>
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/ccard.js"></script>
+
+
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/builder.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+ 
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/cookies.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/cloud-zoom.1.0.2.js"></script>
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery.carouFredSel-6.2.1.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery.touchSwipe.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery.unveil.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/cherry-fixed-parallax.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/tm-stick-up.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/superfish.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/wow.min.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/material.js"></script>
+
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/scripts.js"></script>
+
+
+
+
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery-ui.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/thumbs.js"></script>
+<script type="text/javascript" src="https://fridaystudentportal.com/portal/template/js/jquery-ui-1-10-4.js"></script>
+
+<script type='text/javascript' src='/portal/template/js/TMSearch.js'></script>
+
+
+<script type='text/javascript' src='/portal/template/js/jquery.cfjs.js'></script>
+<script type='text/javascript' src='/portal/template/js/stacktable.min.js'></script>
+<script type='text/javascript' src='/portal/template/js/cardtable-init.js'></script>
+<script type='text/javascript' src='/portal/template/js/moment.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+<script type='text/javascript' src='/portal/template/js/fullcalendar/fullcalendar.min.js'></script>
+
+
+
+	
+	<script>(function(document, tag) { var script = document.createElement(tag); var element = document.getElementsByTagName('body')[0]; script.src = 'https://acsbap.com/api/app/assets/js/acsb.js'; script.async = true; script.defer = true; (typeof element === 'undefined' ? document.getElementsByTagName('html')[0] : element).appendChild(script); script.onload = function() { acsbJS.init({ statementLink : '', feedbackLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, handleJquery : true, language : 'en', position : 'left', leadColor : '#146ff8', triggerColor : '#146ff8', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'display', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, usefulLinks : { }, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'center', triggerOffsetX : 0, triggerOffsetY : 0, triggerRadius : '0' } }); };}(document, 'script'));</script>
+
+        <div class="wrapper en-lang-class">
+            <noscript>
+                <div class="global-site-notice noscript">
+                    <div class="notice-inner">
+                        <p>
+                            <strong>JavaScript seems to be disabled in your browser.
+                            </strong>
+                            <br/>
+                            You must have JavaScript enabled in your browser to utilize the functionality of this website.
+                        </p>
+                    </div>
+                </div>
+            </noscript>
+            <div class="page">
+                <div class="shadow"></div>
+                <div class="swipe-left"></div>
+                <div class="swipe">
+                    <div class="swipe-menu">
+                        
+<ul class="links">
+    <li class="first">
+      <a href="https://fridaystudentportal.com/portal/index.cfm?f=myStudent.cfm" title="My Student" class="my-student-link">
+        My Student
+      </a>
+    </li>
+    <li class="">
+      <a href="https://fridaystudentportal.com/portal/index.cfm?f=myAccount.cfm" title="My Account" class="my-account-link">
+        My Account
+      </a>
+    </li>
+    
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=homepage.cfm" class="level-top">
+                
+                    <span>
+                        Home
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=gradebook.cfm" class="level-top">
+                
+                    <span>
+                        Gradebook
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=schedule.cfm" class="level-top">
+                
+                    <span>
+                        Schedule
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=progressReports.cfm" class="level-top">
+                
+                    <span>
+                        Progress
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=grades.cfm" class="level-top">
+                
+                    <span>
+                        Grades
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=honorRoll.cfm" class="level-top">
+                
+                    <span>
+                        Honor Roll
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=volunteerHours.cfm" class="level-top">
+                
+                    <span>
+                        Volunteer Hours
+                    </span>
+                </a>
+            </li>
+        
+            <li class="">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=documents.cfm" class="level-top">
+                
+                    <span>
+                        Documents
+                    </span>
+                </a>
+            </li>
+        
+</li>
+<li class="last">
+    <a href="https://fridaystudentportal.com/portal/security/logout.cfm" title="Log Out" class="log-out-link">
+        Log Out
+    </a>
+</ul>
+
+                    </div>
+                </div>
+                <div class="top-icon-menu" style="overflow:hidden;">
+                    <div class="swipe-control m-btn">
+                        <i class="fa fa-align-justify"></i>
+                    </div>
+                    <div class="tyler-test">
+                        Unity Charter S...
+                    </div>
+                    <span class="clear"></span>
+                </div>
+                <div class="header-container">
+                    
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="header header-custom-parentportal">
+                
+                    <div class="col-sm-5">
+                        <h1 class="logo">
+                            <a href="https://fridaystudentportal.com/index.cfm" title="title" class="logo custom-header-logo-color" align="center">
+                                
+                                        <h2 class="custom-district-logo">Unity Charter School</h2>
+                                    
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-sm-1">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="realtime-header-info" align="">
+                            <a href="https://fridaystudentportal.com/index.cfm" title="title" class="logo custom-header-logo-color">
+                                <span class="header-custom-address">
+                                  1 Evergreen Place, Morris Township, NJ 07960
+                                        <h6 class="phone">Main Office: 9732921808
+                                    </h6>
+                                   
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <div class="header-dropdown">
+                            <div class="header-dropdown-icon">
+                                <i></i>
+                            </div>
+                            <div class="header-dropdown-content">
+                                <div class="quick-access">
+                                    <ul class="links">
+                                        <li class="first">
+                                            
+                                                <a href="https://fridaystudentportal.com/portal/index.cfm?f=myStudent.cfm" title="My Information" class="my-student-link account-link-item">My Information</a>
+                                            
+                                        </li>
+                                        <li class="">
+                                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=myAccount.cfm" title="My Account" class="my-account-link account-link-item">My Account
+                                            </a>
+                                        </li>
+                                        
+                                        <li class=" last">
+                                            <a href="https://fridaystudentportal.com/portal/security/logout.cfm" title="Log out" class="log-in-link account-link-item">Log Out
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row header-bottom">
+                        <div class="col-sm-9 col-xs-12 col-sm-offset-3">
+                            
+    <div class="student-header page-title category-title">
+        <div class="container-responsive student-header-data">
+            <div class="row">
+                
+                    <div class="col-md-12">
+                
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <!-- <h1>Student Header</h1> -->
+                            <h6><b>Bowie Alan Kudlac  </b></h6>
+                            <h6 class="visible-sm"><b>Student ID: 1207</b></h6>
+                        </div>
+                        
+                        
+                            <div class="col-sm-3" >
+                                <div class="hidden-xs">
+                                    <h6><b>Grade: 07</b>
+                                    
+                                    </h6>
+                                    
+                                    <h6 class="visible-sm">
+                                        
+                                            Attendance:
+                                            <span class="">Present</p>
+                                        
+                                    </h6>
+                                </div>
+                            </div>
+                        
+                        <div class="col-sm-2">
+                            <div class="hidden-xs">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            
+                                <h6 class="hidden-sm"><b>Student ID: 1207</b></h6>
+                            
+                            <div class="visible-xs">
+                                <h6 class="student-header-secondary-text">
+                                    
+                                        Attendance:
+                                        <span class="">Present</p>
+                                    
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row main-student-data">
+                        <div class="col-sm-4 hidden-sm">
+                                                      
+                        </div>
+                        <div class="col-sm-3 hidden-sm">
+                            
+                                <h6 class="student-header-secondary-text">HR Teacher:
+                                    
+                                    <span class="notranslate">
+                                    	Zoe Camp 
+                                    </span>
+                                </h6>
+                            
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3">
+                            <h6 class="hidden-sm student-header-secondary-text">
+                                
+                                    Attendance:
+                                    <span class="wrap-line">
+                                        Present
+                                    </span>
+                                
+                            </h6>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+                        </div>
+                    </div>
+                
+                <div class="skip-links">
+                    <span href="#header-account" class="skip-link skip-account"></span>
+                </div>
+                <div id="header-account" class="skip-content"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('.phone').text(function (i, text) {
+            text = text.replace(/\./g, '');
+            return text.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+        });
+    });
+</script>
+
+                </div>
+                <div class="nav-container fadeInUp animated">
+                    
+<div id="menu-icon">
+    Menu
+</div>
+<ul id="nav" class="sf-menu">
+    
+            <li class="level0 nav-1 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=homepage.cfm" class="level-top">
+                
+                    <span>
+                        Home
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-3 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=gradebook.cfm" class="level-top">
+                
+                    <span>
+                        Gradebook
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-6 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=schedule.cfm" class="level-top">
+                
+                    <span>
+                        Schedule
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-9 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=progressReports.cfm" class="level-top">
+                
+                    <span>
+                        Progress
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-10 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=grades.cfm" class="level-top">
+                
+                    <span>
+                        Grades
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-15 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=honorRoll.cfm" class="level-top">
+                
+                    <span>
+                        Honor Roll
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-17 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=volunteerHours.cfm" class="level-top">
+                
+                    <span>
+                        Volunteer Hours
+                    </span>
+                </a>
+            </li>
+        
+            <li class="level0 nav-20 first level-top">
+                
+                    <a href="https://fridaystudentportal.com/portal/index.cfm?f=documents.cfm" class="level-top">
+                
+                    <span>
+                        Documents
+                    </span>
+                </a>
+            </li>
+        
+</ul>
+</div>
+<div class="clear"></div>
+
+                </div>
+                <div class="main-container col2-left-layout">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="main">
+                          <div class="row">
+                            
+                            <div class="col-main col-xs-12 col-sm-9 text-left">
+                              <div class="padding-s">
+                                <div class="std">
+                                  <div class="clear">
+                                  </div>
+                                </div>
+
+<div class="container-fluid allow-horiz-scroll">
+	<div class="row">
+		<center> </center>
+	</div>
+	
+	
+	<div class="row">
+		<div class="col-xs-12 main-viewport">
+			
+			
+		<div class="row">
+				<div class="page-title category-title custom-menu-header-color">
+					
+								<div class="col-md-10">
+									 <h1 class="text-left">
+									Gradebook
+										</h1>
+								</div>
+								<div class="col-md-2 text-right">
+										<h1 class="text-right">
+											
+												<a href="https://fridaystudentportal.com/portal/index.cfm?f=myAccount.cfm" class="yearoveride">2020-2021</a>
+											
+										</h1>
+								</div>
+				
+			 </div>
+		</div>
+
+
+<style>
+	.grades {
+		text-align: left;
+	}
+</style>
+
+
+
+		<br>
+		<div class="row pull-up-20">
+			<div class="table-responsive">
+				<table class="table" border="0" cellspacing="0" class="subbox" cellpadding="3" width="100%" id="mainTable">
+					<thead class="thead-inverse">
+				<tr>
+				<td class="subBoxHeader" colspan="20">
+					
+					<table border=0 width="100%">
+						<tr>
+							<td>
+								<h4 class="margin-bottom-0">Mathematics  <small>(MA58   / 7B)</small></h4>
+								Jeannette Hainzl 
+								<br>
+								
+									<font class="subBoxHeader">
+									
+									<h4>
+										MP 1 Average: 62  / 62.00 &nbsp;&nbsp;
+										
+									</h4>
+									</font>
+								
+							</td>
+							<td rowspan=2 valign=bottom>
+								<font class="subBoxHeader">
+									<div class="buttons text-right">
+										
+									</div>
+								</font>
+							</td>
+						</tr>
+					</table>
+					
+				</font>
+				</td>
+				</tr>
+
+			
+				<tr>
+					<th class="grades" width="30%">Assignment Title</th>
+					<th class="grades" width="20%">Due Date</th>
+					<th align="center" width="10%">Grade</th>
+					<th align="left" width="25%">Total Points</th>
+					<th class="grades" width="5%">&nbsp;</th>
+					<th class="grades" width="5%">&nbsp;</th>
+				</tr>
+
+				
+
+				</thead>
+
+				
+					<tr class="table-row-subheader">
+						<td class="finedetailwht" colspan="6">
+							
+							<b>Homework 
+									- 25%
+								
+							</b>
+						</td>
+					</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67640" aria-expanded="false" aria-controls="tr_67640">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/16/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67641" aria-expanded="false" aria-controls="tr_67641">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/17/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67642" aria-expanded="false" aria-controls="tr_67642">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/18/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67644" aria-expanded="false" aria-controls="tr_67644">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/22/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67645" aria-expanded="false" aria-controls="tr_67645">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/23/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67646" aria-expanded="false" aria-controls="tr_67646">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/24/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67647" aria-expanded="false" aria-controls="tr_67647">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/25/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67648" aria-expanded="false" aria-controls="tr_67648">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/29/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67649" aria-expanded="false" aria-controls="tr_67649">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/30/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67650" aria-expanded="false" aria-controls="tr_67650">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/01/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67651" aria-expanded="false" aria-controls="tr_67651">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/02/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						3 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67653" aria-expanded="false" aria-controls="tr_67653">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/06/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						6 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67654" aria-expanded="false" aria-controls="tr_67654">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/07/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						6 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67656" aria-expanded="false" aria-controls="tr_67656">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Homework</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/09/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">6</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+					<tr class="table-row-subheader">
+						<td class="finedetailwht" colspan="6">
+							
+							<b>Assessments 
+									- 25%
+								
+							</b>
+						</td>
+					</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					
+					
+					<button class="btn btn-primary btn-rt" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67630" aria-expanded="false" aria-controls="tr_67630">
+						<i class="fa fa-chevron-right pull-right"></i>
+						<i class="fa fa-chevron-down pull-right"></i>
+					</button>
+				Quiz</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/30/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						12 
+					</td>
+					<td align="center" class="finedetail" valign="top">20</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<tr id="tr_67630" class="collapse">
+				<td colspan="5" style="border-bottom: solid 1px; border-color: 000000">
+						
+
+						<div name="txt_67630" id="txt_67630">
+							<table class="table">
+								
+									<tr>
+									<td class="finedetail" width="10%" valign="top">
+										<b>Description:</b>
+									</td>
+									<td class="finedetail text-left">
+										Dimensional Analysis
+									</td>
+									</tr>
+								
+							</table>
+						</div>
+				</td>
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					
+					
+					<button class="btn btn-primary btn-rt" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67636" aria-expanded="false" aria-controls="tr_67636">
+						<i class="fa fa-chevron-right pull-right"></i>
+						<i class="fa fa-chevron-down pull-right"></i>
+					</button>
+				Quiz</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/08/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						16 
+					</td>
+					<td align="center" class="finedetail" valign="top">18</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<tr id="tr_67636" class="collapse">
+				<td colspan="5" style="border-bottom: solid 1px; border-color: 000000">
+						
+
+						<div name="txt_67636" id="txt_67636">
+							<table class="table">
+								
+									<tr>
+									<td class="finedetail" width="10%" valign="top">
+										<b>Description:</b>
+									</td>
+									<td class="finedetail text-left">
+										Multi-step equations
+									</td>
+									</tr>
+								
+							</table>
+						</div>
+				</td>
+				</tr>
+				
+					<tr class="table-row-subheader">
+						<td class="finedetailwht" colspan="6">
+							
+							<b>Classwork 
+									- 50%
+								
+							</b>
+						</td>
+					</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67618" aria-expanded="false" aria-controls="tr_67618">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/10/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67658" aria-expanded="false" aria-controls="tr_67658">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/10/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">10</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67615" aria-expanded="false" aria-controls="tr_67615">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/11/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">3</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67617" aria-expanded="false" aria-controls="tr_67617">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/11/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						15 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67621" aria-expanded="false" aria-controls="tr_67621">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/16/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67622" aria-expanded="false" aria-controls="tr_67622">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/17/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67661" aria-expanded="false" aria-controls="tr_67661">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/17/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						10 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67623" aria-expanded="false" aria-controls="tr_67623">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/18/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67663" aria-expanded="false" aria-controls="tr_67663">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/18/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						10 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67624" aria-expanded="false" aria-controls="tr_67624">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/21/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67664" aria-expanded="false" aria-controls="tr_67664">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/21/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						15 
+					</td>
+					<td align="center" class="finedetail" valign="top">18</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67665" aria-expanded="false" aria-controls="tr_67665">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/22/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">8</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67626" aria-expanded="false" aria-controls="tr_67626">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/23/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67666" aria-expanded="false" aria-controls="tr_67666">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/23/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						12 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67627" aria-expanded="false" aria-controls="tr_67627">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/24/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67667" aria-expanded="false" aria-controls="tr_67667">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/24/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						10 
+					</td>
+					<td align="center" class="finedetail" valign="top">13</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67628" aria-expanded="false" aria-controls="tr_67628">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/25/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67668" aria-expanded="false" aria-controls="tr_67668">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/25/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						12 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67629" aria-expanded="false" aria-controls="tr_67629">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/29/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67669" aria-expanded="false" aria-controls="tr_67669">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/29/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						0 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67670" aria-expanded="false" aria-controls="tr_67670">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 09/30/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">10</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67631" aria-expanded="false" aria-controls="tr_67631">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/01/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67671" aria-expanded="false" aria-controls="tr_67671">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/01/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						7 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67672" aria-expanded="false" aria-controls="tr_67672">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/02/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						12 
+					</td>
+					<td align="center" class="finedetail" valign="top">15</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67632" aria-expanded="false" aria-controls="tr_67632">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/05/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67633" aria-expanded="false" aria-controls="tr_67633">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/05/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67634" aria-expanded="false" aria-controls="tr_67634">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/06/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67635" aria-expanded="false" aria-controls="tr_67635">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/07/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67674" aria-expanded="false" aria-controls="tr_67674">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/07/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						3 
+					</td>
+					<td align="center" class="finedetail" valign="top">18</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67676" aria-expanded="false" aria-controls="tr_67676">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/08/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						10 
+					</td>
+					<td align="center" class="finedetail" valign="top">10</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67637" aria-expanded="false" aria-controls="tr_67637">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				Do Now</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/09/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						5 
+					</td>
+					<td align="center" class="finedetail" valign="top">5</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+				<TR>
+					<td class="finedetail" valign="top">
+						
+					<button class="btn btn-default disabled" type="button" role="button" data-toggle="collapse"
+					data-target="#tr_67677" aria-expanded="false" aria-controls="tr_67677">
+						<i class="fa fa-chevron-right pull-right"></i>
+					</button>
+				In Class</a>
+				
+				
+				
+
+				</td>
+					<td class="finedetail" valign="top">
+						<span> 10/09/2020
+						</span>
+					</td>
+					<td align="center" class="finedetail" valign="top" >
+						17 
+					</td>
+					<td align="center" class="finedetail" valign="top">20</td>
+				<td>&nbsp;</td>
+				
+					<td></td>
+				
+				</tr>
+				
+			</table>
+		</div>
+	</div>
+
+
+<center>
+	<button type="button" class="btn btn-primary btn-rt btn-sm" onclick="window.history.back();">Return to Overview</button>
+</center>
+
+<!-- modal used for skills/standards -->
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="primary-modal" aria-hidden="true" id="primary-modal">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header block-title">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true"><i class="material-design-close47"></i></span>
+          <span class="sr-only">Close</span>
+        </button>
+        <span class="modal-title"></span>
+      </div>
+      <div class="modal-body">
+        <span class="modal-body-text"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+	<!-- modal used for course skill/averages -->
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="courseSkillAverages" aria-hidden="true" id="courseSkillAverages">
+  	<div class="modal-dialog modal-md">
+    	<div class="modal-content">
+      	<div class="modal-header block-title">
+        	<button type="button" class="close" data-dismiss="modal">
+          	<span aria-hidden="true"><i class="material-design-close47"></i></span>
+          	<span class="sr-only">Close</span>
+        	</button>
+        	<span class="modal-title"><b>Skills/Standard Averages for the Marking Period</b></span>
+      	</div>
+      	<div class="modal-body">
+					
+						There are no assignments given with skills/standards.
+					
+      	</div>
+    	</div>
+  	</div>
+	</div>
+
+
+<script>
+$(function() {
+	
+
+	$("#primary-modal").on("show.bs.modal", function(e) {
+    var link = $(e.relatedTarget);
+    $(this).find(".modal-body").load(link.attr("href"));
+	});
+});
+</script>
+
+		</div>
+	</div>
+</div>
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		},
+		i[r].l = 1 * new Date();
+		a = s.createElement(o),
+		m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-50620078-1', 'fridaysis.com');
+	ga('set', 'dimension1', 'unitycharter');
+	ga('set', 'dimension2', 'parentportal');
+	ga('send', 'pageview');
+
+	
+	jQuery(document).ready(function () {
+		jQuery('.main-container p img').addClass('img-responsive');
+	});
+</script>
+                                            </div>
+                                        </div>
+                                        
+
+<div class="col-left sidebar col-xs-12 col-sm-3 ">
+    <div class="nav-container fadeInUp animated">
+        <div id="menu-icon" class="custom-menu-header-color">
+            Student Menu
+        </div>
+        <ul id="nav" class="sf-menu">
+            
+                    <li class="level0 nav-1 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=homepage.cfm" class="level-top">
+                        
+                            <span>
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-3 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=gradebook.cfm" class="level-top">
+                        
+                            <span>
+                                Gradebook
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-6 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=schedule.cfm" class="level-top">
+                        
+                            <span>
+                                Schedule
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-9 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=progressReports.cfm" class="level-top">
+                        
+                            <span>
+                                Progress
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-10 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=grades.cfm" class="level-top">
+                        
+                            <span>
+                                Grades
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-15 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=honorRoll.cfm" class="level-top">
+                        
+                            <span>
+                                Honor Roll
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-17 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=volunteerHours.cfm" class="level-top">
+                        
+                            <span>
+                                Volunteer Hours
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="level0 nav-20 first level-top">
+                        
+                            <a href="https://fridaystudentportal.com/portal/index.cfm?f=documents.cfm" class="level-top">
+                        
+                            <span>
+                                Documents
+                            </span>
+                        </a>
+                    </li>
+                
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container">
+                    <div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="footer custom-footer-color">
+				&nbsp;
+				<p class="hidden-sm hidden-xs" id="back-top">
+					<a href="#top">
+						<span></span>
+					</a>
+				</p>
+				<div class="footer-cols-wrapper">
+					<div class="footer-col">
+					</div>
+					<div class="footer-col">
+					</div>
+					
+						<div>
+						  Translate:<div id="google_translate_element"></div>
+								<script type="text/javascript">
+									const availableTranslations = 'en,ar,bn,zh-CN,zh-TW,tl,fr,he,ht,hi,ig,it,iw,ja,ko,fa,pl,pt,pa,ru,sk,es,tr,uk,ur,vi';
+									function googleTranslateElementInit() {
+										new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: availableTranslations, layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+									}
+								</script>
+							<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+						</div>
+					
+					<div class="footer-col last">
+						<br><br>
+						<address class="copyright-color">&copy; Realtime Information Technology</address>
+						<div class="realitemployee info">
+							63298-108
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
